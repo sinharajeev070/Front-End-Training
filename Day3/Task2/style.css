@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: block;
+    margin: 30px;
+    max-width: 400px;
+    max-height: 600px;
+    min-width: 200px;
+    min-height: 300px;
+    padding: 40px;
+    background-color: aqua;
+    border: 4px dashed blueviolet;
+    border-radius: 20px;
+    line-height: 2;
+    color: chocolate;
+}
+.content{
+    display: block;
+    border:2px solid blue;
+}

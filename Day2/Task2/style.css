@@ -1,0 +1,73 @@
+* {
+  color: red;
+  font-size: 30px;
+}
+p {
+  color: blue;
+}
+#idsel {
+  color: aqua;
+}
+.clssel {
+  color: blueviolet;
+}
+
+.descendant p {
+  color: brown;
+}
+
+.child > p {
+  color: brown;
+}
+
+.adjacent + p {
+  color: coral;
+}
+
+.general ~ p {
+  color: darkgreen;
+}
+
+.hov:hover {
+  color: red;
+}
+
+.act:active {
+  color: green;
+}
+
+.foc:focus {
+  background-color: yellow;
+}
+
+.childselect p:first-child {
+  color: tomato;
+}
+
+.childselect p:last-child {
+  color: violet;
+}
+
+.childselect p:nth-child(3) {
+  color: purple;
+}
+
+.childselect p:nth-child(4) {
+  color: green;
+}
+
+.firstline::first-line {
+  color: greenyellow;
+}
+
+.firstletter::first-letter {
+  color: red;
+}
+
+.ino::before {
+  content: url(https://img.icons8.com/ios-glyphs/30/000000/facebook-messenger.png);
+}
+
+.inp::after {
+  content: url(https://img.icons8.com/ios-glyphs/30/000000/snapchat.png);
+}

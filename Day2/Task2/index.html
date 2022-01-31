@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Universal Selector</h2>
+
+    <div>
+      <p>Element Selector</p>
+      <p id="idsel">ID Selector</p>
+      <p class="clssel">Class Selector</p>
+    </div>
+
+    <p>Descendant:</p>
+    <div class="descendant">
+      <p>Child 1</p>
+      <p>Child 2</p>
+      <section>
+        <p>Grandchild1</p>
+        <p>Grandchild2</p>
+      </section>
+    </div>
+
+    <p>Child:</p>
+    <div class="child">
+      <p>Child 1</p>
+      <p>Child 2</p>
+      <section>
+        <p>Grandchild1</p>
+        <p>Grandchild2</p>
+      </section>
+    </div>
+
+    <p>Adjacent Sibling:</p>
+    <div class="">
+      <p>Child 1</p>
+      <p class="adjacent">Child 2</p>
+      <p>Child3</p>
+      <p>Child4</p>
+    </div>
+
+    <p>General Sibling:</p>
+    <div class="">
+      <p>Child 1</p>
+      <p class="general">Child 2</p>
+      <p>Child3</p>
+      <p>Child4</p>
+    </div>
+
+    <h2>Pseudo Class:</h2>
+    <div class="">
+      <p class="hov">Hover</p>
+      <p class="act">Active</p>
+      <input class="foc" type="text" />
+    </div>
+
+    <div class="childselect">
+      <p>First Child</p>
+      <p>Second Child</p>
+      <p>Third Child</p>
+      <p>Fourth Child</p>
+      <p>Last Child</p>
+    </div>
+
+    <h2>Pseudo Element:</h2>
+    <div class="">
+      <p class="firstline">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
+        officiis fugit harum veritatis tempora repellat ipsum officia
+        recusandae, itaque eveniet, veniam error quidem ab, quam ut doloribus
+        voluptates autem sint! Cumque neque tempora quaerat, soluta fugiat alias
+        nihil nesciunt facilis perspiciatis accusamus praesentium, dignissimos
+        unde quia eum magni reprehenderit consectetur!
+      </p>
+      <p class="firstletter">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
+        enim.
+      </p>
+    </div>
+
+    <h2>Before and After:</h2>
+    <p class="ino">Messenger</p>
+    <p class="inp">Snapchat</p>
+  </body>
+</html>
